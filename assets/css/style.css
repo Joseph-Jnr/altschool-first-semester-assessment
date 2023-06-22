@@ -170,7 +170,7 @@ header {
     var(--white)
   );
   background-image: linear-gradient(to bottom, transparent, var(--white));
-  background-image: url(../images/png/hero-bg.png);
+  background-image: url(../images/svgs/hero-bg.svg);
 
   /* background: linear-gradient(to bottom, transparent, var(--white)),
     url(../images/png/hero-bg.png); */
