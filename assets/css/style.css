@@ -732,8 +732,14 @@ footer > img:last-child {
     font-family: 'Gilroy-Medium';
   }
 
+  /* might delete later */
+  .hero-text h1 > span {
+    display: block;
+  }
+
+  /* might display none later */
   .hero-text h1 > span > img {
-    display: none;
+    bottom: -10px;
   }
 
   .hero-text p {
