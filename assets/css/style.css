@@ -729,6 +729,7 @@ footer > img:last-child {
   .hero-text h1 {
     font-size: 32px;
     line-height: 58px;
+    font-family: 'Gilroy-Medium';
   }
 
   .hero-text h1 > span > img {
@@ -860,7 +861,7 @@ footer > img:last-child {
     display: none;
   }
 
-  .footer-content > .row--between {
+  .footer-content > .flex--row--between {
     flex-direction: column;
   }
 
