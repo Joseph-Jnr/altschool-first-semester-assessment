@@ -1,10 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
 
 :root {
-  --blue: #0065fe;
+  --primary: #0065fe;
   --black: #141414;
   --white: #fff;
-  --deep-blue: #1e3448;
+  --dark-blue: #1e3448;
   --drop-shadow: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.05));
   --box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
 }
@@ -78,12 +78,12 @@ ul {
   position: relative;
 }
 
-.row--center {
+.flex--row--center {
   display: flex;
   justify-content: center;
 }
 
-.row--between {
+.flex--row--between {
   display: flex;
   justify-content: space-between;
 }
@@ -128,7 +128,7 @@ ul {
 }
 
 .blue-text {
-  color: var(--blue);
+  color: var(--primary);
 }
 
 /* Buttons */
@@ -141,7 +141,7 @@ ul {
 }
 
 .btn--custom--fill {
-  background: var(--blue);
+  background: var(--primary);
   color: var(--white);
 }
 
@@ -151,13 +151,13 @@ ul {
 
 .btn--custom--outline {
   background: transparent;
-  border: 1px solid var(--blue);
-  color: var(--blue);
+  border: 1px solid var(--primary);
+  color: var(--primary);
 }
 
 .btn--custom--default {
   background: transparent;
-  color: var(--blue);
+  color: var(--primary);
 }
 /* Buttons end */
 
@@ -186,7 +186,7 @@ nav ul li:not(:nth-child(5)) {
 }
 
 nav ul li.active a {
-  color: var(--blue);
+  color: var(--primary);
 }
 
 .hero-text {
@@ -310,7 +310,7 @@ nav ul li.active a {
 
 .single-pricing-card.center {
   position: relative;
-  background: var(--deep-blue);
+  background: var(--dark-blue);
   border: none;
   color: var(--white);
   z-index: 10;
@@ -359,7 +359,7 @@ nav ul li.active a {
 
 /* Analytics */
 .analytics-section {
-  background: var(--deep-blue);
+  background: var(--dark-blue);
   position: relative;
 }
 
@@ -596,7 +596,7 @@ select:focus {
 
 /* CTA */
 .cta-section {
-  background: var(--deep-blue);
+  background: var(--dark-blue);
   padding: 100px 0;
 }
 
@@ -677,7 +677,7 @@ footer > img:last-child {
 }
 
 .single-footer-link ul li a:hover {
-  color: var(--blue);
+  color: var(--primary);
 }
 
 .footer-copywrite {
@@ -800,7 +800,7 @@ footer > img:last-child {
   }
 
   .analytics-section {
-    background: var(--deep-blue);
+    background: var(--dark-blue);
     padding: 80px 0;
   }
 
