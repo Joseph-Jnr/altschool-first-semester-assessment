@@ -739,7 +739,7 @@ footer > img:last-child {
 
   /* might display none later */
   .hero-text h1 > span > img {
-    bottom: -10px;
+    bottom: -6px;
   }
 
   .hero-text p {
