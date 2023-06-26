@@ -838,6 +838,7 @@ footer > img:last-child {
 
   .form-container .input-group {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin-top: 12px;
   }
 
   .faq-section > img:first-child {
