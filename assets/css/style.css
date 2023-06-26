@@ -363,6 +363,16 @@ nav ul li.active a {
   position: relative;
 }
 
+/* .analytics-section {
+  position: relative;
+  background: url(../images/svgs/wave-vector-left.svg),
+    url(../images/svgs/wave-vector-right.svg);
+  background-color: var(--dark-blue);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  padding: 80px;
+} */
+
 .analytics-section > img:last-child {
   position: absolute;
   right: 0;
@@ -824,6 +834,10 @@ footer > img:last-child {
     transform: translate(0%, 0%);
     box-sizing: border-box;
     z-index: 20;
+  }
+
+  .form-container .input-group {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .faq-section > img:first-child {
